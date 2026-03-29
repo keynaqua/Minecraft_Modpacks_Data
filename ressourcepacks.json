@@ -2,7 +2,7 @@
   "packs": [
     {
       "file_name": "Faithful 32x - 1.21.1.zip",
-      "download_link": "https://database.faithfulpack.net/packs/32x-Java/December%202025/Faithful%2032x%20-%201.21.1.zip",
+      "download_url": "https://database.faithfulpack.net/packs/32x-Java/December%202025/Faithful%2032x%20-%201.21.1.zip",
       "sha256": "5e9197ebbc1394c312e123ccf73797d75cfd7124d41d8a46ba4da5c74b7f94c2"
     }
   ]
