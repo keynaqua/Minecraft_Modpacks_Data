@@ -5,16 +5,14 @@
   },
   "mods": [
     {
-      "source": "modrinth",
       "id": "sodium",
-      "project_id": "sodium",
       "version": "0.6.13",
       "download_url": "https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar"
     },
     {
-      "source": "modrinth",
       "id": "lithium",
-      "project_id": "lithium"
+      "version": "0.15.3",
+      "download_url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/XQJtuOTA/lithium-fabric-0.15.3%2Bmc1.21.1.jar"
     }
   ]
 }
