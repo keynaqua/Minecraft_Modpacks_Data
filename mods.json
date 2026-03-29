@@ -23,6 +23,11 @@
         "id": "iris",
         "version": "1.8.8+mc1.21.1",
         "download_url": "https://cdn.modrinth.com/data/YL57xq9U/versions/zsoi0dso/iris-fabric-1.8.8%2Bmc1.21.1.jar"
+    },
+    {
+        "id": "modmenu",
+        "version": "11.0.4",
+        "download_url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/v6Xx3fbU/modmenu-11.0.4.jar"
     }
   ]
 }
