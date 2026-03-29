@@ -1,0 +1,21 @@
+{
+  "pack_name": "Pokecaillou",
+  "minecraft_version": "1.20.1",
+  "loader": "fabric",
+  "mods": [
+    {
+      "id": "sodium",
+      "name": "Sodium",
+      "version": "0.5.11",
+      "download_url": "https://ton-url/sodium.jar",
+      "filename": "sodium-fabric-0.5.11.jar"
+    },
+    {
+      "id": "lithium",
+      "name": "Lithium",
+      "version": "0.11.2",
+      "download_url": "https://ton-url/lithium.jar",
+      "filename": "lithium-fabric-0.11.2.jar"
+    }
+  ]
+}
