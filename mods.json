@@ -8,13 +8,13 @@
       "source": "modrinth",
       "id": "sodium",
       "project_id": "sodium",
-      "version": "0.6.13"
+      "version": "0.6.13",
+      "download_url": "https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar"
     },
     {
       "source": "modrinth",
       "id": "lithium",
-      "project_id": "lithium",
-      "version": "0.13.1"
+      "project_id": "lithium"
     }
   ]
 }
