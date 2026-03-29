@@ -7,14 +7,14 @@
       "id": "sodium",
       "name": "Sodium",
       "version": "0.5.11",
-      "download_url": "https://ton-url/sodium.jar",
+      "download_url": "https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar",
       "filename": "sodium-fabric-0.5.11.jar"
     },
     {
       "id": "lithium",
       "name": "Lithium",
       "version": "0.11.2",
-      "download_url": "https://ton-url/lithium.jar",
+      "download_url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/XQJtuOTA/lithium-fabric-0.15.3%2Bmc1.21.1.jar",
       "filename": "lithium-fabric-0.11.2.jar"
     }
   ]
