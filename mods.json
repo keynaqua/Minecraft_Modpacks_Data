@@ -1,21 +1,19 @@
 {
-  "pack_name": "Pokecaillou",
-  "minecraft_version": "1.20.1",
-  "loader": "fabric",
+  "defaults": {
+    "loader": "fabric",
+    "game_version": "1.21.1"
+  },
   "mods": [
     {
+      "source": "modrinth",
       "id": "sodium",
-      "name": "Sodium",
-      "version": "0.5.11",
-      "download_url": "https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar",
-      "filename": "sodium-fabric-0.5.11.jar"
+      "project_id": "sodium"
     },
     {
+      "source": "modrinth",
       "id": "lithium",
-      "name": "Lithium",
-      "version": "0.11.2",
-      "download_url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/XQJtuOTA/lithium-fabric-0.15.3%2Bmc1.21.1.jar",
-      "filename": "lithium-fabric-0.11.2.jar"
+      "project_id": "lithium",
+      "version": "0.13.1"
     }
   ]
 }
