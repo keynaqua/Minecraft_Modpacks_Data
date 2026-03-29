@@ -13,6 +13,16 @@
       "id": "lithium",
       "version": "0.15.3+mc1.21.1",
       "download_url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/XQJtuOTA/lithium-fabric-0.15.3%2Bmc1.21.1.jar"
+    },
+    {
+        "id": "fabric-api",
+        "version": "0.116.9+1.21.1",
+        "download_url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/yGAe1owa/fabric-api-0.116.9%2B1.21.1.jar"
+    },
+    {
+        "id": "iris",
+        "version": "1.8.8+mc1.21.1",
+        "download_url": "https://cdn.modrinth.com/data/YL57xq9U/versions/zsoi0dso/iris-fabric-1.8.8%2Bmc1.21.1.jar"
     }
   ]
 }
