@@ -7,7 +7,8 @@
     {
       "source": "modrinth",
       "id": "sodium",
-      "project_id": "sodium"
+      "project_id": "sodium",
+      "version": "mc1.21.1-0.6.13-fabric"
     },
     {
       "source": "modrinth",
