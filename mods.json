@@ -28,6 +28,81 @@
         "id": "modmenu",
         "version": "11.0.4",
         "download_url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/v6Xx3fbU/modmenu-11.0.4.jar"
+    },
+    {
+        "id": "cobblemon",
+        "version": "1.7.3+1.21.1",
+        "download_url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/kF7CvxTo/Cobblemon-fabric-1.7.3%2B1.21.1.jar"
+    },
+    {
+        "id": "knowlogy",
+        "version": "0.9.1",
+        "download_url": "https://cdn.modrinth.com/data/V4OTaHaq/versions/9K1CulVF/knowlogy-fabric-0.9.1-1.21.1.jar"
+    },
+    {
+        "id": "cobblemon_knowlogy",
+        "version": "1.5.0",
+        "download_url": "https://cdn.modrinth.com/data/dba1h0rW/versions/rKVP7xgM/cobblemon_knowlogy-fabric-1.5.0-1.21.1.jar"
+    },
+    {
+        "id": "waystones",
+        "version": "21.1.29",
+        "download_url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/hCuFNT3X/waystones-fabric-1.21.1-21.1.29.jar"
+    },
+    {
+        "id": "xaeros_world_map",
+        "version": "1.40.11",
+        "download_url": "https://cdn.modrinth.com/data/NcUtCpym/versions/wB9wNHUk/xaeroworldmap-fabric-1.21.1-1.40.11.jar"
+    },
+    {
+        "id": "xaeros_mini_map",
+        "version": "25.3.10",
+        "download_url": "https://cdn.modrinth.com/data/1bokaNcj/versions/avSqR3vF/xaerominimap-fabric-1.21.11-25.3.10.jar"
+    },
+    {
+        "id": "zoomify",
+        "version": "2.15.2+1.21.9",
+        "download_url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/Vdx09fu6/zoomify-2.15.2%2B1.21.9.jar"
+    },
+    {
+        "id": "indium",
+        "version": "1.0.35+mc1.21",
+        "download_url": "https://cdn.modrinth.com/data/Orvt0mRa/versions/Z8VpxxGh/indium-1.0.35%2Bmc1.21.jar"
+    },
+    {
+        "id": "tmcraft",
+        "version": "1.4.18+1.7.3",
+        "download_url": "https://cdn.modrinth.com/data/HU6mkUZs/versions/RYBI5bnM/tmcraft-1.4.18%2B1.7.3.jar"
+    },
+    {
+        "id": "toms_storage",
+        "version": "2.3.0",
+        "download_url": "https://cdn.modrinth.com/data/XZNI4Cpy/versions/GwLz79tK/toms_storage_fabric-1.21-2.3.0.jar"
+    },
+    {
+        "id": "trinkets",
+        "version": "3.10.0",
+        "download_url": "https://cdn.modrinth.com/data/5aaWibi9/versions/JagCscwi/trinkets-3.10.0.jar"
+    },
+    {
+        "id": "sound_physics_remastered",
+        "version": "1.21.1-1.5.1",
+        "download_url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/tVu2EZ4u/sound-physics-remastered-fabric-1.21.1-1.5.1.jar"
+    },
+    {
+        "id": "sophisticatedbackpacks",
+        "version": "1.21.1-3.23.4.3.106",
+        "download_url": "https://cdn.modrinth.com/data/ouNrBQtq/versions/nHhuPdda/sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar"
+    },
+    {
+        "id": "sophisticatedcore",
+        "version": "1.21.1-1.2.9.21.168",
+        "download_url": "https://cdn.modrinth.com/data/9jxwkYQL/versions/ZLVrtF0Q/sophisticatedcore-1.21.1-1.2.9.21.168.jar"
+    },
+    {
+        "id": "sophisticatedstorage",
+        "version": "1.21.1-1.3.7.9.139",
+        "download_url": "https://cdn.modrinth.com/data/iHtpVwJL/versions/kjNlOByJ/sophisticatedstorage-1.21.1-1.3.7.9.139.jar"
     }
   ]
 }
