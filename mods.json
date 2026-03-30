@@ -491,8 +491,8 @@
     },
     {
       "id": "cobblemon-battle-extras",
-      "version": "1.11.40",
-      "download_url": "https://cdn.modrinth.com/data/2iY8VFqL/versions/Bja9OLdu/cobblemon-battle-extras-fabric-1.11.40.jar"
+      "version": "1.11.39",
+      "download_url": "https://cdn.modrinth.com/data/2iY8VFqL/versions/QucbpBjx/cobblemon-battle-extras-fabric-1.11.39.jar"
     },
     {
       "id": "catchrate-display",
@@ -593,6 +593,31 @@
       "id": "euphoria_patcher",
       "version": "1.8.6-r5.7.1-fabric",
       "download_url": "https://cdn.modrinth.com/data/4H6sumDB/versions/pI6g9nqi/EuphoriaPatcher-1.8.6-r5.7.1-fabric.jar"
+    },
+    {
+      "id": "terrablender",
+      "version": "4.1.0.8",
+      "download_url": "https://cdn.modrinth.com/data/kkmrDlKT/versions/XNtIBXyQ/TerraBlender-fabric-1.21.1-4.1.0.8.jar"
+    },
+    {
+      "id": "chipped",
+      "version": "4.0.2",
+      "download_url": "https://cdn.modrinth.com/data/BAscRYKm/versions/6h2mVZcb/chipped-fabric-1.21.1-4.0.2.jar"
+    },
+    {
+      "id": "melody",
+      "version": "1.0.10",
+      "download_url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/OqxSeb4n/melody_fabric_1.0.10_MC_1.21.jar"
+    },
+    {
+      "id": "konkrete",
+      "version": "1.9.9",
+      "download_url": "https://cdn.modrinth.com/data/J81TRJWm/versions/Qvrc7DuG/konkrete_fabric_1.9.9_MC_1.21.jar"
+    },
+    {
+      "id": "athena",
+      "version": "4.0.2",
+      "download_url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/7PcGW9Vp/athena-fabric-1.21-4.0.2.jar"
     }
   ]
 }
