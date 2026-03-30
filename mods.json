@@ -50,11 +50,6 @@
         "download_url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/hCuFNT3X/waystones-fabric-1.21.1-21.1.29.jar"
     },
     {
-        "id": "xaeroworldmap",
-        "version": "1.40.11",
-        "download_url": "https://cdn.modrinth.com/data/NcUtCpym/versions/wB9wNHUk/xaeroworldmap-fabric-1.21.1-1.40.11.jar"
-    },
-    {
         "id": "xaerominimap",
         "version": "25.3.10",
         "download_url": "https://cdn.modrinth.com/data/1bokaNcj/versions/9kt7Yxig/xaerominimap-fabric-1.21.1-25.3.10.jar"
@@ -123,6 +118,16 @@
         "id": "lavender",
         "version": "0.1.15+1.21",
         "download_url": "https://cdn.modrinth.com/data/D5h9NKNI/versions/gdB0WW0x/lavender-0.1.15%2B1.21.jar"
+    },
+    {
+        "id": "yet_another_config_lib_v3",
+        "version": "3.8.2+1.21.1-fabric",
+        "download_url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar"
+    },
+    {
+        "id": "fabric-language-kotlin",
+        "version": "1.13.10+kotlin.2.3.20",
+        "download_url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/21TRTKmh/fabric-language-kotlin-1.13.10%2Bkotlin.2.3.20.jar"
     }
   ]
 }
