@@ -258,6 +258,246 @@
         "id": "iceberg",
         "version": "1.3.2",
         "download_url": "https://cdn.modrinth.com/data/5faXoLqX/versions/7ITFAyW8/Iceberg-1.21.1-fabric-1.3.2.jar"
+    },
+    {
+        "id": "rctcapturecap",
+        "version": "1.2.0",
+        "download_url": "https://cdn.modrinth.com/data/VHQsuK2e/versions/p4oVgKm3/rctcapturecap-fabric-1.21.1-1.2.0.jar"
+    },
+    {
+        "id": "cobbreeding",
+        "version": "2.2.1",
+        "download_url": "https://cdn.modrinth.com/data/ItmVb4zY/versions/MvTDHePw/Cobbreeding-fabric-2.2.1.jar"
+    },
+    {
+        "id": "cookingforblockheads",
+        "version": "21.1.18",
+        "download_url": "https://cdn.modrinth.com/data/vJnhuDde/versions/7SLo8S9f/cookingforblockheads-fabric-1.21.1-21.1.18.jar"
+    },
+    {
+        "id": "dynamiccrosshair",
+        "version": "9.11",
+        "download_url": "https://cdn.modrinth.com/data/ZcR9weSm/versions/ubTNYZuL/dynamiccrosshair-9.11%2B1.21.1-fabric.jar"
+    },
+    {
+        "id": "enhancedcelestials",
+        "version": "6.0.2.5",
+        "download_url": "https://cdn.modrinth.com/data/2rL16t1O/versions/WU6cJeLI/Enhanced-Celestials-Fabric-1.21.1-6.0.2.5.jar"
+    },
+    {
+        "id": "fightorflight",
+        "version": "0.10.7",
+        "download_url": "https://cdn.modrinth.com/data/cTdIg5HZ/versions/glCpkfTv/fightorflight-fabric-0.10.7.jar"
+    },
+    {
+      "id": "hopobetterunderwaterruins",
+      "version": "1.2.1",
+      "download_url": "https://cdn.modrinth.com/data/BuWCQzqf/versions/cCUmdH6y/HopoBetterUnderwaterRuins-%5B1.21.1-1.21.3%5D-1.2.1b.jar"
+    },
+    {
+      "id": "cobbledollars",
+      "version": "2.0.0+Beta-5.1+1.21.1",
+      "download_url": "https://cdn.modrinth.com/data/s7N7AsqL/versions/cqsHXSXe/CobbleDollars-fabric-2.0.0%2BBeta-5.1%2B1.21.1.jar"
+    },
+    {
+      "id": "hunt",
+      "version": "1.2.1",
+      "download_url": "https://cdn.modrinth.com/data/QMAwqHhY/versions/a4MOp9tX/Hunt-1.2.1-fabric.jar"
+    },
+    {
+      "id": "ipo",
+      "version": "5",
+      "download_url": "https://cdn.modrinth.com/data/WQxwMPH5/versions/UqNxyorq/ImprovedPillagerOutpost-v5.jar"
+    },
+    {
+      "id": "item_obliterator",
+      "version": "3.1.1",
+      "download_url": "https://cdn.modrinth.com/data/3ESR84kR/versions/OqMP9ZL0/Item_Obliterator-Fabric_Quilt-MC_1.21-3.1.1.jar"
+    },
+    {
+      "id": "legendarytooltips",
+      "version": "1.5.5",
+      "download_url": "https://cdn.modrinth.com/data/atHH8NyV/versions/f4suO4vX/LegendaryTooltips-1.21.1-fabric-1.5.5.jar"
+    },
+    {
+      "id": "cobbleloots",
+      "version": "2.3.0",
+      "download_url": "https://cdn.modrinth.com/data/kcudYghD/versions/XCKU1Qpp/cobbleloots-fabric-2.3.0.jar"
+    },
+    {
+      "id": "lootbeams",
+      "version": "3.6.1-mc1.21-.1",
+      "download_url": "https://cdn.modrinth.com/data/fFPOjWlN/versions/snceiTqn/lootbeams-3.6.1-mc1.21-.1.jar"
+    },
+    {
+      "id": "lootr",
+      "version": "1.21.1-1.11.37.118",
+      "download_url": "https://cdn.modrinth.com/data/EltpO5cN/versions/Rxyok2IC/lootr-fabric-1.21.1-1.11.37.118.jar"
+    },
+    {
+      "id": "modernfix",
+      "version": "5.25.1+mc1.21.1",
+      "download_url": "https://cdn.modrinth.com/data/nmDcB62a/versions/NnNX8LBn/modernfix-fabric-5.25.1%2Bmc1.21.1.jar"
+    },
+    {
+      "id": "more_cobblemon_tweaks",
+      "version": "1.3.3",
+      "download_url": "https://cdn.modrinth.com/data/5KWlJ2HC/versions/1KKV0SvS/MoreCobblemonTweaks-fabric-1.3.3.jar"
+    },
+    {
+      "id": "mousetweaks",
+      "version": "2.26",
+      "download_url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/ylmBQ38A/MouseTweaks-fabric-mc1.21-2.26.jar"
+    },
+    {
+      "id": "mousewheelie",
+      "version": "1.16.2+mc1.21.1",
+      "download_url": "https://cdn.modrinth.com/data/u5Ic2U1u/versions/ghi7PmqT/mouse-wheelie-1.16.2%2Bmc1.21.1.jar"
+    },
+    {
+      "id": "mss",
+      "version": "2.0.2",
+      "download_url": "https://cdn.modrinth.com/data/RJCLIx7k/versions/5oeZ3VOH/MoogsSoaringStructures-1.21-2.0.2.jar"
+    },
+    {
+      "id": "mvs",
+      "version": "5.0.5",
+      "download_url": "https://cdn.modrinth.com/data/OQAgZMH1/versions/aHamoWna/MoogsVoyagerStructures-1.21-5.0.5.jar"
+    },
+    {
+      "id": "mythsandlegends",
+      "version": "1.9.0",
+      "download_url": "https://cdn.modrinth.com/data/CaOWby9K/versions/eg83qtSQ/MythsAndLegends-fabric-1.9.0.jar"
+    },
+    {
+      "id": "naturescompass",
+      "version": "1.21.1-2.2.7-fabric",
+      "download_url": "https://cdn.modrinth.com/data/fPetb5Kh/versions/9W2MUsnU/NaturesCompass-1.21.1-2.2.7-fabric.jar"
+    },
+    {
+      "id": "nightlights",
+      "version": "1.3.0",
+      "download_url": "https://cdn.modrinth.com/data/s7pMb898/versions/owmHxuVw/nightlights-fabric-1.3.0.jar"
+    },
+    {
+      "id": "playerladder",
+      "version": "0.7.1",
+      "download_url": "https://cdn.modrinth.com/data/YCcTxyDM/versions/odOUurFE/playerladder-fabric-1.21-0.7.1.jar"
+    },
+    {
+      "id": "pokeblocks",
+      "version": "1.4.0-1.21.1",
+      "download_url": "https://cdn.modrinth.com/data/hnOfcjSq/versions/AMYJbQsk/pokeblocks-1.4.0-1.21.1.jar"
+    },
+    {
+      "id": "roughlyenoughitems",
+      "version": "16.0.799",
+      "download_url": "https://cdn.modrinth.com/data/nfn13YXA/versions/aWzTESNC/RoughlyEnoughItems-16.0.799-fabric.jar"
+    },
+    {
+      "id": "shouldersurfing",
+      "version": "4.22.4",
+      "download_url": "https://cdn.modrinth.com/data/kepjj2sy/versions/8iwuMIVm/ShoulderSurfing-Fabric-1.21.1-4.22.4.jar"
+    },
+    {
+      "id": "simpletms",
+      "version": "2.3.3",
+      "download_url": "https://cdn.modrinth.com/data/yFqR0DNc/versions/uWiIETYV/SimpleTMs-fabric-2.3.3.jar"
+    },
+    {
+      "id": "sit",
+      "version": "1.21-28",
+      "download_url": "https://cdn.modrinth.com/data/VKXzIykF/versions/uQnamhq3/sit-1.21-28.jar"
+    },
+    {
+      "id": "smoothswapping",
+      "version": "0.9.3.2",
+      "download_url": "https://cdn.modrinth.com/data/ydZic5r4/versions/fJBW6Fkc/smoothswapping-0.9.3.2-1.21.1-fabric.jar"
+    },
+    {
+      "id": "sodium-extra",
+      "version": "0.6.0+mc1.21.1",
+      "download_url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/anDafurZ/sodium-extra-fabric-0.6.0%2Bmc1.21.1.jar"
+    },
+    {
+      "id": "mr_tidal_towns",
+      "version": "1.3.4",
+      "download_url": "https://cdn.modrinth.com/data/EEIwvQVo/versions/xWUN0cml/tidal-towns-1.3.4.jar"
+    },
+    {
+      "id": "totw_modded",
+      "version": "fabric-1.21-1.0.9",
+      "download_url": "https://cdn.modrinth.com/data/54eqfZSC/versions/5A24T8JD/totw_modded-fabric-1.21-1.0.9.jar"
+    },
+    {
+      "id": "travelerstitles",
+      "version": "1.21.1-Fabric-5.1.3",
+      "download_url": "https://cdn.modrinth.com/data/JtifUr64/versions/S27dNesu/TravelersTitles-1.21.1-Fabric-5.1.3.jar"
+    },
+    {
+      "id": "voicechat",
+      "version": "1.21.1-2.6.14",
+      "download_url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/Flz6iR75/voicechat-fabric-1.21.1-2.6.14.jar"
+    },
+    {
+      "id": "wthit",
+      "version": "12.10.2",
+      "download_url": "https://cdn.modrinth.com/data/6AQIaxuO/versions/3TElmFLp/wthit-1.21.1-fabric-12.10.2.jar"
+    },
+    {
+      "id": "wwoo",
+      "version": "2.3.4",
+      "download_url": "https://cdn.modrinth.com/data/II7t6llZ/versions/5nUEDt1Z/wwoo-2.3.4.jar"
+    },
+    {
+      "id": "yungsapi",
+      "version": "1.21.1-Fabric-5.1.6",
+      "download_url": "https://cdn.modrinth.com/data/Ua7DFN59/versions/9aZPNrZC/YungsApi-1.21.1-Fabric-5.1.6.jar"
+    },
+    {
+      "id": "betterdeserttemples",
+      "version": "1.21.1-Fabric-4.1.5",
+      "download_url": "https://cdn.modrinth.com/data/XNlO7sBv/versions/M6eeDRkC/YungsBetterDesertTemples-1.21.1-Fabric-4.1.5.jar"
+    },
+    {
+      "id": "betterjungletemples",
+      "version": "1.21.1-Fabric-3.1.2",
+      "download_url": "https://cdn.modrinth.com/data/z9Ve58Ih/versions/uiGCmR8O/YungsBetterJungleTemples-1.21.1-Fabric-3.1.2.jar"
+    },
+    {
+      "id": "bettermineshafts",
+      "version": "1.21.1-Fabric-5.1.1",
+      "download_url": "https://cdn.modrinth.com/data/HjmxVlSr/versions/4ybDuGhA/YungsBetterMineshafts-1.21.1-Fabric-5.1.1.jar"
+    },
+    {
+      "id": "betterfortresses",
+      "version": "1.21.1-Fabric-3.1.5",
+      "download_url": "https://cdn.modrinth.com/data/Z2mXHnxP/versions/gxBGYcIL/YungsBetterNetherFortresses-1.21.1-Fabric-3.1.5.jar"
+    },
+    {
+      "id": "betteroceanmonuments",
+      "version": "1.21.1-Fabric-4.1.2",
+      "download_url": "https://cdn.modrinth.com/data/3dT9sgt4/versions/TGK6gpeO/YungsBetterOceanMonuments-1.21.1-Fabric-4.1.2.jar"
+    },
+    {
+      "id": "betterstrongholds",
+      "version": "1.21.1-Fabric-5.1.3",
+      "download_url": "https://cdn.modrinth.com/data/kidLKymU/versions/uYZShp1p/YungsBetterStrongholds-1.21.1-Fabric-5.1.3.jar"
+    },
+    {
+      "id": "betterwitchhuts",
+      "version": "1.21.1-Fabric-4.1.1",
+      "download_url": "https://cdn.modrinth.com/data/t5FRdP87/versions/bdpPtvTn/YungsBetterWitchHuts-1.21.1-Fabric-4.1.1.jar"
+    },
+    {
+      "id": "yungsbridges",
+      "version": "1.21.1-Fabric-5.1.1",
+      "download_url": "https://cdn.modrinth.com/data/Ht4BfYp6/versions/8h9N9fvs/YungsBridges-1.21.1-Fabric-5.1.1.jar"
+    },
+    {
+        "id": "mega_showdown",
+        "version": "1.7.2+1.7.3+1.21.1-hotfix",
+        "download_url": "https://cdn.modrinth.com/data/SszvX85I/versions/5kU67A8L/mega_showdown-fabric-1.7.2%2B1.7.3%2B1.21.1-hotfix.jar"
     }
   ]
 }
