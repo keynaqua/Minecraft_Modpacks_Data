@@ -190,11 +190,6 @@
         "download_url": "https://cdn.modrinth.com/data/NPCfuUI4/versions/ze3sTR1C/cobblemonintegrations-fabric-1.21.1-1.1.6.jar"
     },
     {
-        "id": "cobblemon_move_inspector",
-        "version": "1.3.0",
-        "download_url": "https://cdn.modrinth.com/data/MqcGBDhG/versions/s0MVfFey/CobblemonMoveInspector-fabric-1.3.0.jar"
-    },
-    {
         "id": "rctmod",
         "version": "0.17.7-beta",
         "download_url": "https://cdn.modrinth.com/data/lRwTUnD7/versions/8qqQxnjW/rctmod-fabric-1.21.1-0.17.7-beta.jar"
@@ -491,8 +486,8 @@
     },
     {
       "id": "cobblemon-battle-extras",
-      "version": "1.11.39",
-      "download_url": "https://cdn.modrinth.com/data/2iY8VFqL/versions/QucbpBjx/cobblemon-battle-extras-fabric-1.11.39.jar"
+      "version": "1.11.40",
+      "download_url": "https://cdn.modrinth.com/data/2iY8VFqL/versions/QucbpBjx/cobblemon-battle-extras-fabric-1.11.40.jar"
     },
     {
       "id": "catchrate-display",
