@@ -528,6 +528,11 @@
         "id": "badpackets",
         "version": "0.8.2",
         "download_url": "https://cdn.modrinth.com/data/ftdbN0KK/versions/hjhT2sMz/badpackets-fabric-0.8.2.jar"
+    },
+    {
+        "id": "mobsbegone",
+        "version": "0.0.7",
+        "download_url": "https://cdn.modrinth.com/data/hXvXSxxg/versions/B5tawRRL/MobsBeGone-0.0.7.jar"
     }
   ]
 }
