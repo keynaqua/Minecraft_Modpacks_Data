@@ -50,11 +50,6 @@
         "download_url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/hCuFNT3X/waystones-fabric-1.21.1-21.1.29.jar"
     },
     {
-        "id": "xaerominimap",
-        "version": "25.3.10",
-        "download_url": "https://cdn.modrinth.com/data/1bokaNcj/versions/9kt7Yxig/xaerominimap-fabric-1.21.1-25.3.10.jar"
-    },
-    {
         "id": "zoomify",
         "version": "2.15.2+1.21.1",
         "download_url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/6jrMC48Z/zoomify-2.15.2%2B1.21.1.jar"
