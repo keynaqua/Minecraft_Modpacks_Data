@@ -330,11 +330,6 @@
       "download_url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/ylmBQ38A/MouseTweaks-fabric-mc1.21-2.26.jar"
     },
     {
-      "id": "mousewheelie",
-      "version": "1.16.2+mc1.21.1",
-      "download_url": "https://cdn.modrinth.com/data/u5Ic2U1u/versions/ghi7PmqT/mouse-wheelie-1.16.2%2Bmc1.21.1.jar"
-    },
-    {
       "id": "mythsandlegends",
       "version": "1.9.0",
       "download_url": "https://cdn.modrinth.com/data/CaOWby9K/versions/eg83qtSQ/MythsAndLegends-fabric-1.9.0.jar"
@@ -363,11 +358,6 @@
       "id": "roughlyenoughitems",
       "version": "16.0.799",
       "download_url": "https://cdn.modrinth.com/data/nfn13YXA/versions/aWzTESNC/RoughlyEnoughItems-16.0.799-fabric.jar"
-    },
-    {
-      "id": "shouldersurfing",
-      "version": "4.22.4",
-      "download_url": "https://cdn.modrinth.com/data/kepjj2sy/versions/8iwuMIVm/ShoulderSurfing-Fabric-1.21.1-4.22.4.jar"
     },
     {
       "id": "simpletms",
@@ -463,6 +453,146 @@
         "id": "badpackets",
         "version": "0.8.2",
         "download_url": "https://cdn.modrinth.com/data/ftdbN0KK/versions/hjhT2sMz/badpackets-fabric-0.8.2.jar"
+    },
+        {
+      "id": "accessories_compat_layer",
+      "version": "0.1.12",
+      "download_url": "https://cdn.modrinth.com/data/ySnjMzLg/versions/pWxabbaf/accessories_compat_layer-fabric-0.1.12%2B1.21.1.jar"
+    },
+    {
+      "id": "beautify",
+      "version": "2.0.0+1.21.1",
+      "download_url": "https://cdn.modrinth.com/data/DhSSvaxs/versions/ZyaUkJxq/beautify-2.0.0%2B1.21.1.jar"
+    },
+    {
+      "id": "betterthirdperson",
+      "version": "1.9.0",
+      "download_url": "https://cdn.modrinth.com/data/G1s2WpNo/versions/QZTn8cTa/BetterThirdPerson-Fabric-1.21-1.9.0.jar"
+    },
+    {
+      "id": "betterf3",
+      "version": "11.0.3",
+      "download_url": "https://cdn.modrinth.com/data/8shC1gFX/versions/phATjGhF/BetterF3-11.0.3-Fabric-1.21.1.jar"
+    },
+    {
+      "id": "cobblecuisine",
+      "version": "1.1.5",
+      "download_url": "https://cdn.modrinth.com/data/dlx62Wp3/versions/LDTZHE4N/CobbleCuisine-1.1.5.jar"
+    },
+    {
+      "id": "cobblefurnies",
+      "version": "1.0",
+      "download_url": "https://cdn.modrinth.com/data/AXY1OO9m/versions/FeaNqZjR/CobbleFurnies-fabric-1.0.jar"
+    },
+    {
+      "id": "cobblemon-additions",
+      "version": "4.3.0",
+      "download_url": "https://cdn.modrinth.com/data/W2pr9jyL/versions/NVitD9gY/cobblemon-additions-4.3.0.jar"
+    },
+    {
+      "id": "cobblemon-battle-extras",
+      "version": "1.11.40",
+      "download_url": "https://cdn.modrinth.com/data/2iY8VFqL/versions/Bja9OLdu/cobblemon-battle-extras-fabric-1.11.40.jar"
+    },
+    {
+      "id": "catchrate-display",
+      "version": "2.8.4",
+      "download_url": "https://cdn.modrinth.com/data/vADO40xp/versions/DaFMk2UO/catchrate-display-fabric-2.8.4.jar"
+    },
+    {
+      "id": "pasture-loot",
+      "version": "1.0.5+1.21.1",
+      "download_url": "https://cdn.modrinth.com/data/XP2jcAo0/versions/MYJtblOM/pastureLoot-1.0.5%2B1.21.1.jar"
+    },
+    {
+      "id": "cobblemonraiddens",
+      "version": "0.9.1+1.21.1",
+      "download_url": "https://cdn.modrinth.com/data/GebWh45l/versions/MFjXsIjj/cobblemonraiddens-fabric-0.9.1%2B1.21.1.jar"
+    },
+    {
+      "id": "legendarymonuments",
+      "version": "7.8",
+      "download_url": "https://cdn.modrinth.com/data/m6RyHSbV/versions/kSVEEVIv/LegendaryMonuments-7.8.jar"
+    },
+    {
+      "id": "customsplashscreen",
+      "version": "2.2.0",
+      "download_url": "https://cdn.modrinth.com/data/BwFQLeCh/versions/OIFSv9om/customsplashscreen-2.2.0.jar"
+    },
+    {
+      "id": "entityculling",
+      "version": "1.10.0",
+      "download_url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/zzguHbcL/entityculling-fabric-1.10.0-mc1.21.1.jar"
+    },
+    {
+      "id": "fancymenu",
+      "version": "3.8.1",
+      "download_url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/6V6kRZzL/fancymenu_fabric_3.8.1_MC_1.21.1.jar"
+    },
+    {
+      "id": "ferritecore",
+      "version": "7.0.3",
+      "download_url": "https://cdn.modrinth.com/data/uXXizFIs/versions/sOzRw3CG/ferritecore-7.0.3-fabric.jar"
+    },
+    {
+      "id": "highlight",
+      "version": "3.0.0",
+      "download_url": "https://cdn.modrinth.com/data/Vz96hXMh/versions/O0nda3pt/highlight-fabric-1.21-3.0.0.jar"
+    },
+    {
+      "id": "immediatelyfast",
+      "version": "1.6.10+1.21.1",
+      "download_url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/yHztKxR5/ImmediatelyFast-Fabric-1.6.10%2B1.21.1.jar"
+    },
+    {
+      "id": "moreculling",
+      "version": "1.0.7",
+      "download_url": "https://cdn.modrinth.com/data/51shyZVL/versions/y4J2jK6V/moreculling-fabric-1.21.1-1.0.7.jar"
+    },
+    {
+      "id": "infinite-music",
+      "version": "0.4.6",
+      "download_url": "https://cdn.modrinth.com/data/OJLdOa8k/versions/cIfcDLaq/infinite-music-0.4.6.jar"
+    },
+    {
+      "id": "musicnotification",
+      "version": "2.1.0",
+      "download_url": "https://cdn.modrinth.com/data/A4YQgwzz/versions/Bmx4tcaK/MusicNotification-fabric-mc1.21-2.1.0.jar"
+    },
+    {
+      "id": "zamega",
+      "version": "1.6.1",
+      "download_url": "https://cdn.modrinth.com/data/2V1Y86sc/versions/vAdP53D6/zamega-fabric-1.6.1.jar"
+    },
+    {
+      "id": "notenoughcrashes",
+      "version": "4.4.9+1.21.1",
+      "download_url": "https://cdn.modrinth.com/data/yM94ont6/versions/gR0LY1dB/notenoughcrashes-fabric-4.4.9%2B1.21.1.jar"
+    },
+    {
+      "id": "particular",
+      "version": "1.1.2+1.21",
+      "download_url": "https://cdn.modrinth.com/data/B1CcCd9h/versions/3dq7wTCR/particular-1.1.2%2B1.21.jar"
+    },
+    {
+      "id": "wakes",
+      "version": "0.2.2-1.21",
+      "download_url": "https://cdn.modrinth.com/data/7y4lnTPk/versions/fEOpac97/wakes-0.2.2-1.21.jar"
+    },
+    {
+      "id": "pingwheel",
+      "version": "1.12.1",
+      "download_url": "https://cdn.modrinth.com/data/QQXAdCzh/versions/KGV5bulZ/Ping-Wheel-1.12.1-fabric-1.21.1.jar"
+    },
+    {
+      "id": "cobbleversebadges",
+      "version": "1.3",
+      "download_url": "https://cdn.modrinth.com/data/PHT3Zj0r/versions/3aQ0cMqp/CobbleverseBadges-1.3.jar"
+    },
+    {
+      "id": "euphoria_patcher",
+      "version": "1.8.6-r5.7.1-fabric",
+      "download_url": "https://cdn.modrinth.com/data/4H6sumDB/versions/pI6g9nqi/EuphoriaPatcher-1.8.6-r5.7.1-fabric.jar"
     }
   ]
 }
