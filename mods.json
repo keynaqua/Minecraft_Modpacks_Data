@@ -141,8 +141,8 @@
     },
     {
         "id": "advancementplaques",
-        "version": "1.6.7",
-        "download_url": "https://cdn.modrinth.com/data/9NM0dXub/versions/xX9KGjcD/AdvancementPlaques-1.20.1-fabric-1.6.7.jar"
+        "version": "1.6.8",
+        "download_url": "https://cdn.modrinth.com/data/9NM0dXub/versions/g0SNjiMq/AdvancementPlaques-1.21.1-fabric-1.6.8.jar"
     },
     {
         "id": "catchindicator",
@@ -228,6 +228,31 @@
         "id": "xaeroworldmap",
         "version": "1.40.6",
         "download_url": "https://cdn.modrinth.com/data/NcUtCpym/versions/hT5eHHLt/xaeroworldmap-fabric-1.21.1-1.40.6.jar"
+    },
+    {
+        "id": "rctapi",
+        "version": "0.15.0-beta",
+        "download_url": "https://cdn.modrinth.com/data/CBfM2yw7/versions/kwYWScnz/rctapi-fabric-1.21.1-0.15.0-beta.jar"
+    },
+    {
+        "id": "geckolib",
+        "version": "4.8.4",
+        "download_url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/3GjkJptS/geckolib-fabric-1.21.1-4.8.4.jar"
+    },
+    {
+        "id": "tim_core",
+        "version": "1.7.3-fabric-1.31.0",
+        "download_url": "https://cdn.modrinth.com/data/lVP9aUaY/versions/yPG8odLw/timcore-fabric-1.7.3-1.31.0.jar"
+    },
+    {
+        "id": "architectury",
+        "version": "13.0.8",
+        "download_url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Wto0RchG/architectury-13.0.8-fabric.jar"
+    },
+    {
+        "id": "moonlight",
+        "version": "1.21-2.29.23",
+        "download_url": "https://cdn.modrinth.com/data/twkfQtEc/versions/Vcs2WJ3K/moonlight-1.21-2.29.23-fabric.jar"
     }
   ]
 }
