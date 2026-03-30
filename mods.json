@@ -498,6 +498,41 @@
         "id": "mega_showdown",
         "version": "1.7.2+1.7.3+1.21.1-hotfix",
         "download_url": "https://cdn.modrinth.com/data/SszvX85I/versions/5kU67A8L/mega_showdown-fabric-1.7.2%2B1.7.3%2B1.21.1-hotfix.jar"
+    },
+    {
+        "id": "corgilib",
+        "version": "5.0.0.9",
+        "download_url": "https://cdn.modrinth.com/data/ziOp6EO8/versions/ltZXAkMW/Corgilib-Fabric-1.21.1-5.0.0.9.jar"
+    },
+    {
+        "id": "dataanchor",
+        "version": "2.0.0.13",
+        "download_url": "https://cdn.modrinth.com/data/z2XEADmE/versions/gzeArAYH/Data_Anchor-fabric-1.21.1-2.0.0.13.jar"
+    },
+    {
+        "id": "necronomicon",
+        "version": "1.6.0",
+        "download_url": "https://cdn.modrinth.com/data/P1Kv5EAO/versions/O6odCETu/Necronomicon-Fabric-1.6.0%2B1.21.jar"
+    },
+    {
+        "id": "prism",
+        "version": "1.0.11",
+        "download_url": "https://cdn.modrinth.com/data/1OE8wbN0/versions/obM5d9Uv/Prism-1.21.1-fabric-1.0.11.jar"
+    },
+    {
+        "id": "accessories",
+        "version": "1.1.0-beta.53+1.21.1",
+        "download_url": "https://cdn.modrinth.com/data/jtmvUHXj/versions/Xlt4eWBe/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar"
+    },
+    {
+        "id": "moogs_structures",
+        "version": "1.1.0-1.21-1.21.1-fabric",
+        "download_url": "https://cdn.modrinth.com/data/1oUDhxuy/versions/jQCmAAAT/moogs_structures-1.1.0-1.21-1.21.1-fabric.jar"
+    },
+    {
+        "id": "badpackets",
+        "version": "0.8.2",
+        "download_url": "https://cdn.modrinth.com/data/ftdbN0KK/versions/hjhT2sMz/badpackets-fabric-0.8.2.jar"
     }
   ]
 }
