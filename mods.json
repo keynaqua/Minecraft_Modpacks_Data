@@ -50,19 +50,19 @@
         "download_url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/hCuFNT3X/waystones-fabric-1.21.1-21.1.29.jar"
     },
     {
-        "id": "xaeros_world_map",
+        "id": "xaeroworldmap",
         "version": "1.40.11",
         "download_url": "https://cdn.modrinth.com/data/NcUtCpym/versions/wB9wNHUk/xaeroworldmap-fabric-1.21.1-1.40.11.jar"
     },
     {
-        "id": "xaeros_mini_map",
+        "id": "xaerominimap",
         "version": "25.3.10",
-        "download_url": "https://cdn.modrinth.com/data/1bokaNcj/versions/avSqR3vF/xaerominimap-fabric-1.21.11-25.3.10.jar"
+        "download_url": "https://cdn.modrinth.com/data/1bokaNcj/versions/9kt7Yxig/xaerominimap-fabric-1.21.1-25.3.10.jar"
     },
     {
         "id": "zoomify",
-        "version": "2.15.2+1.21.9",
-        "download_url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/Vdx09fu6/zoomify-2.15.2%2B1.21.9.jar"
+        "version": "2.15.2+1.21.1",
+        "download_url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/6jrMC48Z/zoomify-2.15.2%2B1.21.1.jar"
     },
     {
         "id": "indium",
@@ -103,6 +103,26 @@
         "id": "sophisticatedstorage",
         "version": "1.21.1-1.3.7.9.139",
         "download_url": "https://cdn.modrinth.com/data/iHtpVwJL/versions/kjNlOByJ/sophisticatedstorage-1.21.1-1.3.7.9.139.jar"
+    },
+    {
+        "id": "balm",
+        "version": "21.0.56",
+        "download_url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/x4SzggaK/balm-fabric-1.21.1-21.0.56.jar"
+    },
+    {
+        "id": "forgeconfigapiport",
+        "version": "21.1.6",
+        "download_url": "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+    },
+    {
+        "id": "owo",
+        "version": "0.12.15.4+1.21",
+        "download_url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4%2B1.21.jar"
+    },
+    {
+        "id": "lavender",
+        "version": "0.1.15+1.21",
+        "download_url": "https://cdn.modrinth.com/data/D5h9NKNI/versions/gdB0WW0x/lavender-0.1.15%2B1.21.jar"
     }
   ]
 }
