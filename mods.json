@@ -482,7 +482,7 @@
     {
       "id": "cobblemon-battle-extras",
       "version": "1.11.40",
-      "download_url": "https://cdn.modrinth.com/data/2iY8VFqL/versions/QucbpBjx/cobblemon-battle-extras-fabric-1.11.40.jar"
+      "download_url": "https://cdn.modrinth.com/data/2iY8VFqL/versions/Bja9OLdu/cobblemon-battle-extras-fabric-1.11.40.jar"
     },
     {
       "id": "catchrate-display",
@@ -553,11 +553,6 @@
       "id": "zamega",
       "version": "1.6.1",
       "download_url": "https://cdn.modrinth.com/data/2V1Y86sc/versions/vAdP53D6/zamega-fabric-1.6.1.jar"
-    },
-    {
-      "id": "notenoughcrashes",
-      "version": "4.4.9+1.21.1",
-      "download_url": "https://cdn.modrinth.com/data/yM94ont6/versions/gR0LY1dB/notenoughcrashes-fabric-4.4.9%2B1.21.1.jar"
     },
     {
       "id": "particular",
