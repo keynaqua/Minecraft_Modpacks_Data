@@ -648,6 +648,16 @@
         "id": "aps_trophies",
         "version": "1.2.0",
         "download_url": "https://cdn.modrinth.com/data/ZmP6jlh0/versions/B1xcWIqn/aps_trophies-1.21.1-fabric-1.2.0.jar"
+    },
+    {
+      "id": "cobblemon_autobattle",
+      "version": "1.1.0",
+      "download_url": "https://cdn.modrinth.com/data/flgS4XbV/versions/wQ13DqDO/cobblemon_autobattle-fabric-1.21.1-1.1.0.jar"
+    },
+    {
+      "id": "cobblemonarmory",
+      "version": "1.4.4",
+      "download_url": "https://cdn.modrinth.com/data/2GSJkNsi/versions/FzsQN27k/cobblemonarmory-1.4.4-fabric-1.21.1.jar"
     }
   ]
 }

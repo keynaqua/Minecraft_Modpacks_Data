@@ -70,7 +70,7 @@ def enrich_packs(data):
 
 
 def main():
-    input_file = "ressourcepacks.json"
+    input_file = "ress.json"
     output_file = "ressourcepacks_out.json"
 
     with open(input_file, "r", encoding="utf-8") as f:
