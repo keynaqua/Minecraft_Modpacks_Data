@@ -718,6 +718,11 @@
       "id": "drippyloadingscreen",
       "version": "3.1.0",
       "download_url": "https://cdn.modrinth.com/data/v3CYg2V9/versions/wW1UHXfu/drippyloadingscreen_fabric_3.1.0_MC_1.21.1.jar"
+    },
+    {
+        "id": "cobblesafari",
+        "version": "0.1.5",
+        "download_url": "https://cdn.modrinth.com/data/zj3GsKts/versions/XANyMPaV/cobblesafari-fabric-1.21.1-0.1.5.jar"
     }
   ]
 }
