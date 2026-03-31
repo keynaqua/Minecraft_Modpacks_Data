@@ -505,11 +505,6 @@
       "download_url": "https://cdn.modrinth.com/data/m6RyHSbV/versions/kSVEEVIv/LegendaryMonuments-7.8.jar"
     },
     {
-      "id": "customsplashscreen",
-      "version": "2.2.0",
-      "download_url": "https://cdn.modrinth.com/data/BwFQLeCh/versions/OIFSv9om/customsplashscreen-2.2.0.jar"
-    },
-    {
       "id": "entityculling",
       "version": "1.10.0",
       "download_url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/zzguHbcL/entityculling-fabric-1.10.0-mc1.21.1.jar"
