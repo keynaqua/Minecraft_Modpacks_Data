@@ -275,11 +275,6 @@
         "download_url": "https://cdn.modrinth.com/data/cTdIg5HZ/versions/glCpkfTv/fightorflight-fabric-0.10.7.jar"
     },
     {
-      "id": "cobbledollars",
-      "version": "2.0.0+Beta-5.1+1.21.1",
-      "download_url": "https://cdn.modrinth.com/data/s7N7AsqL/versions/cqsHXSXe/CobbleDollars-fabric-2.0.0%2BBeta-5.1%2B1.21.1.jar"
-    },
-    {
       "id": "ipo",
       "version": "5",
       "download_url": "https://cdn.modrinth.com/data/WQxwMPH5/versions/UqNxyorq/ImprovedPillagerOutpost-v5.jar"
@@ -688,6 +683,16 @@
         "id": "cobbletcg",
         "version": "1.1.1",
         "download_url": "https://cdn.modrinth.com/data/MoZJE0bI/versions/FUFmsjup/cobbletcg-1.1.1.jar"
+    },
+    {
+      "id": "cobblemon-economy",
+      "version": "0.0.17",
+      "download_url": "https://cdn.modrinth.com/data/zfVCrbFk/versions/CfJu3YAf/cobblemon-economy-0.0.17.jar"
+    },
+    {
+      "id": "wild_battle_api",
+      "version": "1.1.2",
+      "download_url": "https://cdn.modrinth.com/data/v7VZE8kh/versions/GoEGm1Ea/wild_battle_api-fabric-1.1.2.jar"
     }
   ]
 }
