@@ -658,6 +658,11 @@
       "id": "cobblemonarmory",
       "version": "1.4.4",
       "download_url": "https://cdn.modrinth.com/data/2GSJkNsi/versions/FzsQN27k/cobblemonarmory-1.4.4-fabric-1.21.1.jar"
+    },
+    {
+      "id": "glitchcore",
+      "version": "2.1.0.0",
+      "download_url": "https://cdn.modrinth.com/data/s3dmwKy5/versions/lbSHOhee/GlitchCore-fabric-1.21.1-2.1.0.0.jar"
     }
   ]
 }
