@@ -638,6 +638,16 @@
         "id": "farmersdelight",
         "version": "1.21.1-3.2.5+refabricated",
         "download_url": "https://cdn.modrinth.com/data/7vxePowz/versions/Sddkv0PO/FarmersDelight-1.21.1-3.2.5%2Brefabricated.jar"
+    },
+    {
+        "id": "sereneseasons",
+        "version": "10.1.0.1",
+        "download_url": "https://cdn.modrinth.com/data/e0bNACJD/versions/UqA7miTT/SereneSeasons-fabric-1.21.1-10.1.0.1.jar"
+    },
+    {
+        "id": "aps_trophies",
+        "version": "1.2.0",
+        "download_url": "https://cdn.modrinth.com/data/ZmP6jlh0/versions/B1xcWIqn/aps_trophies-1.21.1-fabric-1.2.0.jar"
     }
   ]
 }
