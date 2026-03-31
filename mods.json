@@ -638,6 +638,11 @@
       "id": "scalablelux",
       "version": "0.1.0.1+fabric.d0d58ab",
       "download_url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/Yx1tgJMI/ScalableLux-0.1.0.1%2Bfabric.d0d58ab-all.jar"
+    },
+    {
+        "id": "farmersdelight",
+        "version": "1.21.1-3.2.5+refabricated",
+        "download_url": "https://cdn.modrinth.com/data/7vxePowz/versions/Sddkv0PO/FarmersDelight-1.21.1-3.2.5%2Brefabricated.jar"
     }
   ]
 }
