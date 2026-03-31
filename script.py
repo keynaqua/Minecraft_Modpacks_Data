@@ -74,7 +74,7 @@ def enrich_mods(data):
 
 def main():
     input_file = "tests.json"
-    output_file = "mods_out.json"
+    output_file = "tests.json"
 
     with open(input_file, "r", encoding="utf-8") as f:
         data = json.load(f)

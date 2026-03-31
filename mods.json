@@ -698,6 +698,26 @@
       "id": "cobbledollars",
       "version": "2.0.0+Beta-5.1+1.21.1",
       "download_url": "https://cdn.modrinth.com/data/s7N7AsqL/versions/cqsHXSXe/CobbleDollars-fabric-2.0.0%2BBeta-5.1%2B1.21.1.jar"
+    },
+    {
+      "id": "cobblemontrialsedition",
+      "version": "1.2.2",
+      "download_url": "https://cdn.modrinth.com/data/oH4pigcS/versions/XdMo4HiB/CobblemonTrialsEdition-fabric-1.2.2.jar"
+    },
+    {
+      "id": "cubes-without-borders",
+      "version": "3.0.0+mc1.21",
+      "download_url": "https://cdn.modrinth.com/data/ETlrkaYF/versions/m350hyy8/cwb-fabric-3.0.0%2Bmc1.21.jar"
+    },
+    {
+      "id": "minecraft-cursor",
+      "version": "3.11.2+1.21.1-patch.1",
+      "download_url": "https://cdn.modrinth.com/data/o5fhgLeQ/versions/ZF75Hbd0/minecraft-cursor-fabric-3.11.2%2B1.21.1-patch.1.jar"
+    },
+    {
+      "id": "drippyloadingscreen",
+      "version": "3.1.0",
+      "download_url": "https://cdn.modrinth.com/data/v3CYg2V9/versions/wW1UHXfu/drippyloadingscreen_fabric_3.1.0_MC_1.21.1.jar"
     }
   ]
 }
