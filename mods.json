@@ -598,6 +598,51 @@
       "id": "athena",
       "version": "4.0.2",
       "download_url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/7PcGW9Vp/athena-fabric-1.21-4.0.2.jar"
+    },
+    {
+      "id": "cull-less-leaves",
+      "version": "1.4.2+1.21-fabric",
+      "download_url": "https://cdn.modrinth.com/data/iG6ZHsUV/versions/4sXZok62/Cull%20Less%20Leaves-1.4.2%2B1.21-fabric.jar"
+    },
+    {
+      "id": "enhancedblockentities",
+      "version": "0.10.2+1.21",
+      "download_url": "https://cdn.modrinth.com/data/OVuFYfre/versions/HBZAPs3u/enhancedblockentities-0.10.2%2B1.21.jar"
+    },
+    {
+      "id": "dynamic_fps",
+      "version": "3.11.4",
+      "download_url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/GBH14HiF/dynamic-fps-3.11.4%2Bminecraft-1.21.0-fabric.jar"
+    },
+    {
+      "id": "fastquit",
+      "version": "3.0.0+1.20.6",
+      "download_url": "https://cdn.modrinth.com/data/x1hIzbuY/versions/dIGKewCo/fastquit-3.0.0%2B1.20.6.jar"
+    },
+    {
+      "id": "ksyxis",
+      "version": "1.3.4",
+      "download_url": "https://cdn.modrinth.com/data/2ecVyZ49/versions/vCQj9Ui7/Ksyxis-1.3.4.jar"
+    },
+    {
+      "id": "smoothboot",
+      "version": "1",
+      "download_url": "https://cdn.modrinth.com/data/gk3B4zrk/versions/sBnRFhuJ/SmoothBoot-FABRIC%2B1.21-1.0.0.jar"
+    },
+    {
+      "id": "clumps",
+      "version": "19.0.0.1",
+      "download_url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/3ene3W1l/Clumps-fabric-1.21.1-19.0.0.1.jar"
+    },
+    {
+      "id": "noxesium",
+      "version": "2.3.3+d22848f",
+      "download_url": "https://cdn.modrinth.com/data/Kw7Sm3Xf/versions/23vBW8kj/noxesium-2.3.3.jar"
+    },
+    {
+      "id": "scalablelux",
+      "version": "0.1.0.1+fabric.d0d58ab",
+      "download_url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/Yx1tgJMI/ScalableLux-0.1.0.1%2Bfabric.d0d58ab-all.jar"
     }
   ]
 }
