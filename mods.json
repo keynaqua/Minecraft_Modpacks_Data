@@ -663,6 +663,31 @@
       "id": "glitchcore",
       "version": "2.1.0.0",
       "download_url": "https://cdn.modrinth.com/data/s3dmwKy5/versions/lbSHOhee/GlitchCore-fabric-1.21.1-2.1.0.0.jar"
+    },
+    {
+      "id": "clumpedindistortionworld",
+      "version": "1.0.0",
+      "download_url": "https://cdn.modrinth.com/data/Su5oRlVu/versions/5Mor2Zul/clumpedindistortionworld-1.0.0.jar"
+    },
+    {
+      "id": "cobblemon_ultra_wormholes",
+      "version": "1.0.0",
+      "download_url": "https://cdn.modrinth.com/data/65VFUCys/versions/ENICkzkT/cobblemon_ultra_wormholes-fabric-1.0.0.jar"
+    },
+    {
+      "id": "cobblemon_vocalized",
+      "version": "1.0.0",
+      "download_url": "https://cdn.modrinth.com/data/8MisFXwM/versions/eLAgkWE2/Fabric-cobblemon_vocalized-1.0.0.jar"
+    },
+    {
+      "id": "safari",
+      "version": "0.0.14",
+      "download_url": "https://cdn.modrinth.com/data/WgQdV8B8/versions/hbNIDpie/safari-dimension-0.0.14.jar"
+    },
+    {
+        "id": "cobbletcg",
+        "version": "1.1.1",
+        "download_url": "https://cdn.modrinth.com/data/MoZJE0bI/versions/FUFmsjup/cobbletcg-1.1.1.jar"
     }
   ]
 }
