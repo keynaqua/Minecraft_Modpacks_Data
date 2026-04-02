@@ -84,6 +84,16 @@
       "file_name": "CobbleSounds[Complete]_v1.4.1.zip",
       "download_url": "https://cdn.modrinth.com/data/yIgJQt6H/versions/ryII9cwu/CobbleSounds%5BComplete%5D_v1.4.1.zip",
       "sha256": "cf76e9c7b47a944b5fbb93cb87495c3d7cd291643cee35359932b5023a6b9f96"
+    },
+    {
+      "file_name": "RCT Trainers+ [1.6] v2.1.zip",
+      "download_url": "https://cdn.modrinth.com/data/ARGDWSQq/versions/2PwkXMie/RCT%20Trainers%2B%20%5B1.6%5D%20v2.1.zip",
+      "sha256": "44482d5e099fef585e9d742af176d6e54de09a26a8b575b7a510c23d6479f22d"
+    },
+    {
+      "file_name": "MoreRadicalTextures1.8.zip",
+      "download_url": "https://github.com/Fyre520/More-Radical-Textures/releases/download/1.8/MoreRadicalTextures1.8.zip",
+      "sha256": "5e8d2e2c80f0ce74a21a7c765dbfc2e659eb92fd0863de485c927abefbcd8896"
     }
   ]
 }
