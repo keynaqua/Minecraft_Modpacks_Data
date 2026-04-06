@@ -718,11 +718,6 @@
         "id": "cobblesafari",
         "version": "0.1.5",
         "download_url": "https://cdn.modrinth.com/data/zj3GsKts/versions/XANyMPaV/cobblesafari-fabric-1.21.1-0.1.5.jar"
-    },
-    {
-      "id": "relay",
-      "version": "0.0.2.5-FIX-ALPHA",
-      "download_url": "https://cdn.modrinth.com/data/nrarXpuS/versions/wlcr3pB2/relay-0.0.2.5-FIX-ALPHA%2B1.21.1.jar"
     }
   ]
 }
