@@ -206,13 +206,13 @@
     },
     {
         "id": "xaerominimap",
-        "version": "25.3.5",
-        "download_url": "https://cdn.modrinth.com/data/1bokaNcj/versions/Vqkdzsyt/xaerominimap-fabric-1.21.1-25.3.5.jar"
+        "version": "25.3.10",
+        "download_url": "https://cdn.modrinth.com/data/1bokaNcj/versions/9kt7Yxig/xaerominimap-fabric-1.21.1-25.3.10.jar"
     },
     {
         "id": "xaeroworldmap",
-        "version": "1.40.6",
-        "download_url": "https://cdn.modrinth.com/data/NcUtCpym/versions/hT5eHHLt/xaeroworldmap-fabric-1.21.1-1.40.6.jar"
+        "version": "1.40.11",
+        "download_url": "https://cdn.modrinth.com/data/NcUtCpym/versions/wB9wNHUk/xaeroworldmap-fabric-1.21.1-1.40.11.jar"
     },
     {
         "id": "rctapi",
