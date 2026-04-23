@@ -718,6 +718,21 @@
         "id": "cobblesafari",
         "version": "0.1.5",
         "download_url": "https://cdn.modrinth.com/data/zj3GsKts/versions/XANyMPaV/cobblesafari-fabric-1.21.1-0.1.5.jar"
+    },
+	{
+        "id": "emotecraft",
+        "version": "2.4.12",
+        "download_url": "https://cdn.modrinth.com/data/pZ2wrerK/versions/daqt5qcK/emotecraft-for-MC1.21.1-2.4.12-fabric.jar"
+    },
+	{
+        "id": "betterwalls",
+        "version": "3.5.2",
+        "download_url": "https://cdn.modrinth.com/data/uYYEtS6i/versions/K4OpIv3C/betterwalls-3.5.2.jar"
+    },
+	{
+        "id": "cobblenav",
+        "version": "2.3.3",
+        "download_url": "https://cdn.modrinth.com/data/bI8Nt3uA/versions/cGFERrtC/cobblenav-fabric-2.3.3.jar"
     }
   ]
 }
