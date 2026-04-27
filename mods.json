@@ -665,11 +665,6 @@
       "download_url": "https://cdn.modrinth.com/data/8MisFXwM/versions/eLAgkWE2/Fabric-cobblemon_vocalized-1.0.0.jar"
     },
     {
-      "id": "safari",
-      "version": "0.0.14",
-      "download_url": "https://cdn.modrinth.com/data/WgQdV8B8/versions/hbNIDpie/safari-dimension-0.0.14.jar"
-    },
-    {
         "id": "cobbletcg",
         "version": "1.1.1",
         "download_url": "https://cdn.modrinth.com/data/MoZJE0bI/versions/FUFmsjup/cobbletcg-1.1.1.jar"
@@ -711,8 +706,8 @@
     },
     {
         "id": "cobblesafari",
-        "version": "0.1.5",
-        "download_url": "https://cdn.modrinth.com/data/zj3GsKts/versions/XANyMPaV/cobblesafari-fabric-1.21.1-0.1.5.jar"
+        "version": "0.2.0",
+        "download_url": "https://cdn.modrinth.com/data/zj3GsKts/versions/EWetXulT/cobblesafari-fabric-1.21.1-0.2.0.jar"
     },
 	{
         "id": "emotecraft",
