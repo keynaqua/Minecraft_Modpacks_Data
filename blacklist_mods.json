@@ -1,5 +1,6 @@
 {
     "mods": [
-        {"id": "cobblemonarmory"}
+        {"id": "cobblemonarmory"},
+        {"id": "openpartiesandclaims"}
     ]
 }
