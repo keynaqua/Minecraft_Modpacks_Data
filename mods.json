@@ -40,6 +40,11 @@
         "download_url": "https://cdn.modrinth.com/data/V4OTaHaq/versions/9K1CulVF/knowlogy-fabric-0.9.1-1.21.1.jar"
     },
     {
+        "id": "cobblemon_knowlogy",
+        "version": "1.5.0",
+        "download_url": "https://cdn.modrinth.com/data/dba1h0rW/versions/rKVP7xgM/cobblemon_knowlogy-fabric-1.5.0-1.21.1.jar"
+    },
+    {
         "id": "waystones",
         "version": "21.1.29",
         "download_url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/hCuFNT3X/waystones-fabric-1.21.1-21.1.29.jar"
@@ -635,11 +640,6 @@
       "download_url": "https://cdn.modrinth.com/data/flgS4XbV/versions/wQ13DqDO/cobblemon_autobattle-fabric-1.21.1-1.1.0.jar"
     },
     {
-      "id": "cobblemonarmory",
-      "version": "1.4.4",
-      "download_url": "https://cdn.modrinth.com/data/2GSJkNsi/versions/FzsQN27k/cobblemonarmory-1.4.4-fabric-1.21.1.jar"
-    },
-    {
       "id": "glitchcore",
       "version": "2.1.0.0",
       "download_url": "https://cdn.modrinth.com/data/s3dmwKy5/versions/lbSHOhee/GlitchCore-fabric-1.21.1-2.1.0.0.jar"
@@ -718,6 +718,16 @@
         "id": "cobblenav",
         "version": "2.3.3",
         "download_url": "https://cdn.modrinth.com/data/bI8Nt3uA/versions/cGFERrtC/cobblenav-fabric-2.3.3.jar"
+    },
+    {
+        "id": "mcef",
+        "version": "2.1.6-1.21.1",
+        "download_url": "https://cdn.modrinth.com/data/TObQ0HxZ/versions/mnUKY41H/mcef-fabric-2.1.6-1.21.1.jar"
+    },
+    {
+        "id": "shouldersurfing",
+        "version": "4.22.7",
+        "download_url": "https://cdn.modrinth.com/data/kepjj2sy/versions/tT6Gmy3F/ShoulderSurfing-Fabric-1.21.1-4.22.7.jar"
     }
   ]
 }
