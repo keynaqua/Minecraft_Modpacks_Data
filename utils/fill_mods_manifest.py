@@ -1,102 +1,111 @@
 from __future__ import annotations
 
-import argparse
 import hashlib
 import json
 import tempfile
-import zipfile
 from pathlib import Path
+from urllib.parse import unquote, urlparse
 from urllib.request import Request, urlopen
 
 
-REQUIRED_FIELDS = {"id", "version", "file_name", "sha1", "size"}
+MANIFEST = Path(r"C:\Users\keynm\Documents\Minecraft_Modpacks_Data\manifests\mods.json")
+ROOT_FIELDS = ("mods", "blacklist", "safe_mode")
+MOD_FIELDS = ("id", "version", "download_url", "file_name", "sha1")
+RULE_FIELDS = ("id", "reason")
 
 
-def download(url: str, target: Path) -> bytes:
-    req = Request(url, headers={"User-Agent": "mod-manifest-filler"})
-    with urlopen(req) as response:
-        data = response.read()
-    target.write_bytes(data)
-    return data
+def keep_only(entry: dict, fields: tuple[str, ...]) -> bool:
+    clean = {field: entry[field] for field in fields if entry.get(field) not in (None, "")}
+    changed = entry != clean
+    entry.clear()
+    entry.update(clean)
+    return changed
 
 
-def sha1_bytes(data: bytes) -> str:
-    return hashlib.sha1(data).hexdigest()
+def jar_name(url: str) -> str:
+    name = Path(unquote(urlparse(url).path)).name
+    if not name.lower().endswith(".jar"):
+        raise RuntimeError(f"URL sans .jar: {url}")
+    return name
 
 
-def load_fabric_meta(jar_path: Path) -> dict:
-    with zipfile.ZipFile(jar_path) as jar:
-        with jar.open("fabric.mod.json") as file:
-            data = json.loads(file.read().decode("utf-8"))
+def download_sha1(url: str, target: Path) -> str:
+    req = Request(url, headers={"User-Agent": "KayouInstaller-manifest-tool"})
+    sha1 = hashlib.sha1()
 
-    if isinstance(data, list):
-        data = next((item for item in data if isinstance(item, dict) and item.get("id")), None)
+    with urlopen(req, timeout=90) as response, target.open("wb") as file:
+        while chunk := response.read(1024 * 1024):
+            file.write(chunk)
+            sha1.update(chunk)
 
-    if not isinstance(data, dict):
-        raise RuntimeError(f"{jar_path.name}: fabric.mod.json inutilisable")
+    if target.stat().st_size == 0:
+        raise RuntimeError("telechargement vide")
 
-    return data
+    return sha1.hexdigest()
 
 
-def fill_mod(entry: dict, temp_dir: Path) -> bool:
-    missing = [field for field in REQUIRED_FIELDS if field not in entry or entry[field] in ("", None)]
+def update_mod(mod: dict, index: int, tmp: Path) -> bool:
+    label = mod.get("id") or f"mods[{index}]"
+    changed = keep_only(mod, MOD_FIELDS)
+
+    missing = [field for field in ("file_name", "sha1") if not mod.get(field)]
     if not missing:
-        return False
+        print(f"[{index}] SKIP: {label}")
+        return changed
 
-    url = entry.get("download_url")
-    if not isinstance(url, str) or not url.strip():
-        raise RuntimeError(f"Mod sans download_url: {entry!r}")
+    url = mod.get("download_url")
+    if not url:
+        print(f"[{index}] ERROR: {label} -> download_url manquant")
+        return changed
 
-    guessed_name = Path(url.split("?", 1)[0]).name or "mod.jar"
-    temp_jar = temp_dir / guessed_name
-    raw = download(url, temp_jar)
-    meta = load_fabric_meta(temp_jar)
+    try:
+        name = jar_name(url)
+        print(f"[{index}] UPDATE: {label} -> {', '.join(missing)}")
+        mod["file_name"] = name
+        mod["sha1"] = download_sha1(url, tmp / name)
+        return True
+    except Exception as exc:
+        print(f"[{index}] ERROR: {label} -> {exc}")
+        return changed
 
-    entry.setdefault("id", str(meta.get("id", "")).strip())
-    entry.setdefault("version", str(meta.get("version", "")).strip())
 
-    name = meta.get("name")
-    if isinstance(name, str) and name.strip():
-        entry.setdefault("name", name.strip())
+def clean_rules(data: dict, section: str) -> bool:
+    changed = False
+    rules = data.get(section, [])
 
-    entry.setdefault("file_name", guessed_name)
-    entry.setdefault("sha1", sha1_bytes(raw))
-    entry.setdefault("size", len(raw))
+    if not isinstance(rules, list):
+        data[section] = []
+        print(f"WARN: {section} remplace par une liste vide")
+        return True
 
-    still_missing = [field for field in REQUIRED_FIELDS if not entry.get(field)]
-    if still_missing:
-        raise RuntimeError(f"{entry.get('download_url')}: champs encore manquants: {still_missing}")
+    for rule in rules:
+        if isinstance(rule, dict):
+            changed |= keep_only(rule, RULE_FIELDS)
 
-    return True
+    return changed
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("manifest", type=Path)
-    args = parser.parse_args()
+    data = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    changed = keep_only(data, ROOT_FIELDS)
 
-    manifest_path = args.manifest
-    data = json.loads(manifest_path.read_text(encoding="utf-8"))
-
-    raw_mods = data.get("mods")
-    if not isinstance(raw_mods, list):
+    mods = data.get("mods")
+    if not isinstance(mods, list):
         raise RuntimeError('Le manifest doit contenir une liste "mods".')
 
-    changed = 0
-    with tempfile.TemporaryDirectory() as tmp:
-        temp_dir = Path(tmp)
-        for index, entry in enumerate(raw_mods, start=1):
-            if not isinstance(entry, dict):
-                raise RuntimeError(f"mods[{index}] doit être un objet JSON")
-            if fill_mod(entry, temp_dir):
-                changed += 1
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        tmp = Path(tmp_dir)
+        for index, mod in enumerate(mods, start=1):
+            if not isinstance(mod, dict):
+                print(f"[{index}] ERROR: entree mod invalide")
+                continue
+            changed |= update_mod(mod, index, tmp)
 
-    manifest_path.write_text(
-        json.dumps(data, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
+    changed |= clean_rules(data, "blacklist")
+    changed |= clean_rules(data, "safe_mode")
 
-    print(f"Manifest mis à jour: {changed} mod(s) complété(s).")
+    MANIFEST.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print("\nManifest nettoye." if changed else "\nManifest deja propre.")
 
 
 if __name__ == "__main__":
