@@ -1,0 +1,9 @@
+{
+  "name": "Pokekayou",
+  "minecraft_version": "1.21.1",
+  "loader": {
+    "type": "fabric",
+    "version": "latest"
+  },
+  "installation_dir": "pokekayou"
+}
