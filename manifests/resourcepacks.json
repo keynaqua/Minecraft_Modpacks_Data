@@ -233,11 +233,11 @@
       "order": 30
     },
     {
-      "file_name": "Musgo_Fix_1.21.1_V3.zip",
+      "file_name": "Musgo_Fix_1.21.1.zip",
       "download_url": "",
       "sha256": "37ccb3e56b6fe75617543b442a9f090fae62da9c7a65c22a58bab1c16bd1fc85",
       "active": true,
-      "order": 32
+      "order": 19
     }
   ]
 }
