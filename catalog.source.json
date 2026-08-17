@@ -1,4 +1,9 @@
 {
+  "installer": {
+    "version": "3.0.0",
+    "asset_name": "KayouInstaller.exe",
+    "download_url": "https://github.com/keynaqua/KayouInstaller/releases/download/v3.0.0/KayouInstaller.exe"
+  },
   "modpacks": [
     {
       "id": "cozy_adventure",

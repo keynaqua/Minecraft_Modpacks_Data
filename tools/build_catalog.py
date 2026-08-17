@@ -230,6 +230,7 @@ def build(base_url: str) -> None:
             {
                 "schema_version": 2,
                 "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                "installer": source.get("installer", {}),
                 "modpacks": generated,
             },
         )
