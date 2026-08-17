@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "packs": [
+    {
+      "file_name": "Bloop-1.8.0-Alpha-3.zip",
+      "download_url": "https://cdn.modrinth.com/data/Q6RQF9Oa/versions/WvrEQHFq/Bloop-1.8.0-Alpha-3.zip",
+      "sha256": "6ebba326a6dbccaaa03221de45d41b9b2ab6f442e6ac78d85847324c64b33ae8",
+      "size_bytes": 4728538,
+      "active": false,
+      "order": 1
+    },
+    {
+      "file_name": "MakeUp-UltraFast-9.5d.zip",
+      "download_url": "https://cdn.modrinth.com/data/izsIPI7a/versions/4hOlA9Ej/MakeUp-UltraFast-9.5d.zip",
+      "sha256": "b26b8eb9b23fbba41e3b16dc6b8ef4d2c7c645b3f6621aa414cdade68ad48966",
+      "size_bytes": 400386,
+      "active": false,
+      "order": 2
+    },
+    {
+      "file_name": "Mellow Shader v3.3.zip",
+      "download_url": "https://cdn.modrinth.com/data/BUxf36AP/versions/y6zWED9s/Mellow%20Shader%20v3.3.zip",
+      "sha256": "20410e9d70d120f97b219f17d9b771c7bab1e2de2d97d7f65caa5207e57012c0",
+      "size_bytes": 633401,
+      "active": false,
+      "order": 3
+    },
+    {
+      "file_name": "Pastel-Shaders-Universal-v1.200.zip",
+      "download_url": "https://cdn.modrinth.com/data/BkTdFBUU/versions/w3Pxx3b4/Pastel-Shaders-Universal-v1.200.zip",
+      "sha256": "72d100aa877177247a6afce644f05c87fd76b341ae78ca549ab0cfec8e86aad1",
+      "size_bytes": 1023746,
+      "active": false,
+      "order": 4
+    }
+  ]
+}

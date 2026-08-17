@@ -1,0 +1,28 @@
+{
+  "modpacks": [
+    {
+      "id": "cozy_adventure",
+      "enabled": true,
+      "order": 10,
+      "name": "Cozy Adventure",
+      "description": "Modpack Cozy Survival Enhanced",
+      "minecraft_version": "1.21.1",
+      "loader": "neoforge",
+      "loader_version": "latest",
+      "installation_dir": "cozy_adventure",
+      "java_version": 21
+    },
+    {
+      "id": "pokekayou",
+      "enabled": false,
+      "order": 20,
+      "name": "Pokekayou",
+      "description": "Modpack Cobblemon Pokekayou",
+      "minecraft_version": "1.21.1",
+      "loader": "fabric",
+      "loader_version": "latest",
+      "installation_dir": "pokekayou",
+      "java_version": 21
+    }
+  ]
+}

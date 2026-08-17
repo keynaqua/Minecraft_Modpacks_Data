@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "packs": [
+    {
+      "file_name": "Dynamic Lights v5.3 1.20.5 - 1.21.4.zip",
+      "download_url": "https://cdn.modrinth.com/data/AK1n0IqM/versions/BxDjbMMB/Dynamic%20Lights%20v5.3%201.20.5%20-%201.21.4.zip",
+      "sha256": "f77a1c67d24ac70506cd6b1964c78edb55445b9bc830daaf733c7420bea02cd5",
+      "size_bytes": 20057,
+      "active": true,
+      "order": 1
+    },
+    {
+      "file_name": "Eternal-Pets-1.21-1.21.4-v1.3.3-Datapack.zip",
+      "download_url": "https://cdn.modrinth.com/data/n7MSwurd/versions/2dNZmcF2/Eternal-Pets-1.21-1.21.4-v1.3.3-Datapack.zip",
+      "sha256": "e29e28e247c05fdc748dd944d665f7d84010682861df5101ea6aebe43ff4be09",
+      "size_bytes": 66592,
+      "active": true,
+      "order": 2
+    },
+    {
+      "file_name": "Geophilic v3.6.dp.zip",
+      "download_url": "https://cdn.modrinth.com/data/hl5OLM95/versions/6uLCMJCR/Geophilic%20v3.6.dp.zip",
+      "sha256": "3be795920096573c2167bcd08780e7029381dd5e2b7826804df3e29294336d54",
+      "size_bytes": 904668,
+      "active": true,
+      "order": 3
+    },
+    {
+      "file_name": "nocropstrample 1.21.zip",
+      "download_url": "https://cdn.modrinth.com/data/ovK1G5ym/versions/e6I1mHUu/nocropstrample%201.21.zip",
+      "sha256": "444e1cc54a5836bed605845c3dd92beace8766f9988c41044bc556ed864479b1",
+      "size_bytes": 1376,
+      "active": true,
+      "order": 4
+    },
+    {
+      "file_name": "PK_Racks_V.3.1.0_MC_1.21.zip",
+      "download_url": "https://cdn.modrinth.com/data/Ws2vw51R/versions/25M7bXmu/PK_Racks_V.3.1.0_MC_1.21.zip",
+      "sha256": "d18222e5fdeaf30a83846371834a39f80f5fc127b10e1daffbeba5776610f764",
+      "size_bytes": 136332,
+      "active": true,
+      "order": 5
+    },
+    {
+      "file_name": "Realistic Item Drops 3.4.zip",
+      "download_url": "https://cdn.modrinth.com/data/CZP8YYTl/versions/IwiFsoSa/Realistic%20Item%20Drops%203.4.zip",
+      "sha256": "ce757f4fb0f5768b17fe389a6860b57766b51d947da52e37747213993a27864a",
+      "size_bytes": 15150,
+      "active": true,
+      "order": 6
+    },
+    {
+      "file_name": "tidal_1.3.4.zip",
+      "download_url": "https://cdn.modrinth.com/data/EEIwvQVo/versions/zZ83E9TB/tidal_1.3.4.zip",
+      "sha256": "7c672a08eafabc24ef087f87afc4b96e5d29352ae58d9629df0d6ded5fb495cb",
+      "size_bytes": 56252,
+      "active": true,
+      "order": 7
+    },
+    {
+      "file_name": "tool-trims-v3.0.7-for-1.21.1.zip",
+      "download_url": "https://cdn.modrinth.com/data/uXeEiQk1/versions/jJdlQoD8/tool-trims-v3.0.7-for-1.21.1.zip",
+      "sha256": "ec11315437d56e5f3bf0da6b4c394f97ddc58944ddd50b7381ec0fcd4a06ebdd",
+      "size_bytes": 1440633,
+      "active": true,
+      "order": 8
+    },
+    {
+      "file_name": "true-ending-v1.1.2d.zip",
+      "download_url": "https://cdn.modrinth.com/data/MCnBYP0b/versions/ynFyyU6J/true-ending-v1.1.2d.zip",
+      "sha256": "1bf1ecc56d9dd048096a1dd7bf7c5bd2a90dae44571cccce7fd17f8b3c86ea0d",
+      "size_bytes": 115786,
+      "active": true,
+      "order": 9
+    }
+  ]
+}
