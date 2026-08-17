@@ -126,6 +126,8 @@ def process_manifest(
     path: Path, pack_dir: Path, pack_id: str, base_url: str, revision: str
 ) -> tuple[object, int]:
     data = read_json(path)
+    if path.name == "configs.json":
+        return process_config_manifest(data, pack_dir, pack_id, base_url, revision, path)
     directory = CATEGORY_DIRECTORIES.get(path.name)
     if not directory:
         return data, 0
@@ -149,6 +151,88 @@ def process_manifest(
             f"{pack_id}/{path.name}[{index}]",
         )
     return data, total
+
+
+def process_config_manifest(
+    data: object,
+    pack_dir: Path,
+    pack_id: str,
+    base_url: str,
+    revision: str,
+    manifest_path: Path,
+) -> tuple[dict, int]:
+    if not isinstance(data, dict):
+        raise RuntimeError(f"{manifest_path} doit être un objet JSON")
+    raw_files = data.get("files", [])
+    raw_directories = data.get("directories", [])
+    if not isinstance(raw_files, list) or not isinstance(raw_directories, list):
+        raise RuntimeError(f"files/directories invalides dans {manifest_path}")
+
+    files = []
+    seen = set()
+    for index, raw in enumerate(raw_files, start=1):
+        if not isinstance(raw, dict):
+            raise RuntimeError(f"Entrée files[{index}] invalide dans {manifest_path}")
+        entry = dict(raw)
+        relative = entry.get("path")
+        if not isinstance(relative, str) or not relative.strip():
+            raise RuntimeError(f"path manquant dans configs.json files[{index}]")
+        key = Path(relative).as_posix().casefold()
+        if key in seen:
+            raise RuntimeError(f"Config dupliquée : {relative}")
+        seen.add(key)
+        files.append(entry)
+
+    config_root = pack_dir / "config"
+    for index, rule in enumerate(raw_directories, start=1):
+        if not isinstance(rule, dict):
+            raise RuntimeError(f"Entrée directories[{index}] invalide dans {manifest_path}")
+        raw_path = rule.get("path")
+        if not isinstance(raw_path, str) or not raw_path.strip():
+            raise RuntimeError(f"path manquant dans configs.json directories[{index}]")
+        relative_dir = Path() if raw_path == "." else Path(raw_path)
+        source_dir = (config_root / relative_dir).resolve()
+        try:
+            source_dir.relative_to(config_root.resolve())
+        except ValueError as exc:
+            raise RuntimeError(f"Dossier config interdit : {raw_path}") from exc
+        if not source_dir.is_dir():
+            raise RuntimeError(f"Dossier config local introuvable : {raw_path}")
+        for local in sorted(path for path in source_dir.rglob("*") if path.is_file()):
+            relative = local.relative_to(config_root).as_posix()
+            key = relative.casefold()
+            if key in seen:
+                continue
+            seen.add(key)
+            files.append({
+                "path": relative,
+                "download_url": "",
+                "sha256": file_digest(local, "sha256"),
+                "size_bytes": local.stat().st_size,
+                "mode": str(rule.get("mode", "preserve")),
+                "enabled": rule.get("enabled") is True,
+            })
+
+    total = 0
+    for index, entry in enumerate(files, start=1):
+        relative = entry["path"]
+        url = entry.get("download_url")
+        if not isinstance(url, str):
+            raise RuntimeError(f"download_url invalide dans configs.json files[{index}]")
+        size = entry.get("size_bytes")
+        if not url.strip():
+            local = safe_local_file(pack_dir, "config", relative)
+            validate_hash(local, entry, f"{pack_id}/configs.json[{index}]")
+            size = local.stat().st_size
+            entry["size_bytes"] = size
+            entry["download_url"] = public_file_url(
+                base_url, pack_id, "config", relative, revision
+            )
+        if not isinstance(size, int) or isinstance(size, bool) or size < 0:
+            raise RuntimeError(f"size_bytes manquant dans configs.json files[{index}]")
+        total += size
+
+    return {"format": data.get("format", 1), "files": files, "directories": []}, total
 
 
 def copy_pack(pack_dir: Path, destination: Path) -> None:
