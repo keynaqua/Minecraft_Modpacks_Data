@@ -16,6 +16,7 @@
       "description": "Modpack Cozy Survival Enhanced",
       "minecraft_version": "1.21.1",
       "loader": "neoforge",
+	  "size_mb": 600,
       "enabled": true
     },
     {
