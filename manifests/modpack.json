@@ -1,0 +1,10 @@
+{
+  "name": "Cozy Adventure",
+  "java_version": 21,
+  "minecraft_version": "1.21.1",
+  "loader": {
+    "type": "neoforge",
+    "version": "latest"
+  },
+  "installation_dir": "cozy_adventure"
+}
