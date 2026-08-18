@@ -1160,6 +1160,14 @@
       "file_name": "ItemPhysic_NEOFORGE_v1.8.13_mc1.21.1.jar",
       "sha1": "272cdbf4cb63d8c4f6fb25be5e94343717e48a29",
       "size_bytes": 54529
+    },
+	{
+      "id": "distanthorizons",
+      "version": "3.2.0-b",
+      "download_url": "https://cdn.modrinth.com/data/uCdwusMi/versions/ZpKb4kZp/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+      "file_name": "DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+      "sha1": "df25e8cfe06917963778723a1d9a60610dd21bec",
+      "size_bytes": 30207268
     }
   ],
   "blacklist": [],
