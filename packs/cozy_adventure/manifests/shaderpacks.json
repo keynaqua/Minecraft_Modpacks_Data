@@ -6,8 +6,24 @@
       "download_url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/VMHXIk50/ComplementaryUnbound_r5.8.1.zip",
       "sha256": "bb89b1fc54687d4147a837fb2e3c3f7261a13bee51819761e9b6a91cb7915965",
       "size_bytes": 546928,
-      "active": false,
+      "active": true,
       "order": 1
+    },
+    {
+      "file_name": "ComplementaryUnbound_r5.8.1.zip.txt",
+      "download_url": "",
+      "sha256": "61a6359a280f96880c5c86d73818c3d07ea6773f8f1676ecd499014a5d97b537",
+      "size_bytes": 196,
+      "active": false,
+      "order": 2
+    },
+    {
+      "file_name": "ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3.txt",
+      "download_url": "",
+      "sha256": "d499a27477ee2b94f3bd90d190e031b16f78ea9bb05aa162fa0ef4a2c674f653",
+      "size_bytes": 439,
+      "active": false,
+      "order": 3
     }
   ]
 }
