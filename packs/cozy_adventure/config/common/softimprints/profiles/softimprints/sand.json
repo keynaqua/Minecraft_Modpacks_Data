@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "surface": {
+    "mode": "OVERLAY"
+  },
+  "resolution": {
+    "map_size": 16
+  }
+}

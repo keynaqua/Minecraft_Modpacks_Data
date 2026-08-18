@@ -1,0 +1,59 @@
+{
+  "general": {
+    "enabled": true,
+    "enableKeybindings": false,
+    "updateIntervalMs": 250,
+    "configVersion": 6
+  },
+  "hud": {
+    "showFps": true,
+    "showAverageFps": false,
+    "showFrameTime": false,
+    "show1PercentLow": false,
+    "showMemory": false,
+    "showPing": true,
+    "showMspt": false,
+    "showTps": false,
+    "showChunks": false,
+    "showCoordinates": false,
+    "showBiome": false,
+    "showGraph": false,
+    "showMinMaxStats": false,
+    "showLabels": false,
+    "metricOrder": [
+      "fps",
+      "avg_fps",
+      "frame_time",
+      "one_percent_low",
+      "memory",
+      "ping",
+      "mspt",
+      "tps",
+      "chunks",
+      "coords",
+      "biome"
+    ],
+    "metricDisplayNames": {}
+  },
+  "appearance": {
+    "position": "TOP_LEFT",
+    "overlayStyle": "NAVBAR",
+    "textEffect": "NONE",
+    "themePreset": "CLASSIC_DARK",
+    "showBackground": true,
+    "backgroundOpacity": 130,
+    "backgroundColor": 2173750,
+    "labelColor": -8151631,
+    "valueColor": -1,
+    "unitColor": -3566234,
+    "dividerColor": -13286319,
+    "goodColor": -13708937,
+    "warningColor": -12032,
+    "badColor": -47803,
+    "hudScale": 0.5,
+    "adaptiveColors": true,
+    "autoHideF3": true,
+    "xOffset": 0,
+    "yOffset": 0
+  }
+}

@@ -20,6 +20,7 @@ MANIFEST_NAMES = (
     "shaderpacks.json",
     "datapacks.json",
     "configs.json",
+    "profiles.json",
 )
 CATEGORY_DIRECTORIES = {
     "mods.json": "mods",
@@ -128,6 +129,8 @@ def process_manifest(
     data = read_json(path)
     if path.name == "configs.json":
         return process_config_manifest(data, pack_dir, pack_id, base_url, revision, path)
+    if path.name == "profiles.json":
+        return process_profile_manifest(data, pack_dir, pack_id, base_url, revision, path), 0
     directory = CATEGORY_DIRECTORIES.get(path.name)
     if not directory:
         return data, 0
@@ -151,6 +154,46 @@ def process_manifest(
             f"{pack_id}/{path.name}[{index}]",
         )
     return data, total
+
+
+def process_profile_manifest(data, pack_dir, pack_id, base_url, revision, manifest_path):
+    if not isinstance(data, dict) or not isinstance(data.get("profiles"), list):
+        raise RuntimeError(f"{manifest_path}: profiles doit être une liste")
+    result = dict(data)
+    profiles = []
+    for index, raw in enumerate(data["profiles"], start=1):
+        if not isinstance(raw, dict):
+            raise RuntimeError(f"{manifest_path}: profiles[{index}] invalide")
+        entry = dict(raw)
+        logo = entry.get("logo", "")
+        if logo and isinstance(logo, str) and not logo.startswith(("http://", "https://")):
+            safe_local_file(pack_dir, "profiles", logo)
+            entry["logo"] = public_file_url(base_url, pack_id, "profiles", logo, revision)
+        profiles.append(entry)
+    result["profiles"] = profiles
+    return result
+
+
+def automatic_config_manifest(pack_dir: Path, profile_ids: list[str]) -> dict | None:
+    root = pack_dir / "config"
+    if not root.is_dir():
+        return None
+    files = []
+    for profile in ["common", *profile_ids]:
+        folder = root / profile
+        if not folder.is_dir():
+            continue
+        for local in sorted(path for path in folder.rglob("*") if path.is_file()):
+            entry = {
+                "path": local.relative_to(folder).as_posix(),
+                "source": local.relative_to(root).as_posix(),
+                "download_url": "",
+                "mode": "managed",
+            }
+            if profile != "common":
+                entry["profile"] = profile
+            files.append(entry)
+    return {"format": 1, "files": files, "directories": []}
 
 
 def process_config_manifest(
@@ -177,9 +220,10 @@ def process_config_manifest(
         relative = entry.get("path")
         if not isinstance(relative, str) or not relative.strip():
             raise RuntimeError(f"path manquant dans configs.json files[{index}]")
-        key = Path(relative).as_posix().casefold()
+        profile = str(entry.get("profile", "")).strip()
+        key = (Path(relative).as_posix().casefold(), profile.casefold())
         if key in seen:
-            raise RuntimeError(f"Config dupliquée : {relative}")
+            raise RuntimeError(f"Config dupliquée : {relative} ({profile or 'commun'})")
         seen.add(key)
         files.append(entry)
 
@@ -200,7 +244,8 @@ def process_config_manifest(
             raise RuntimeError(f"Dossier config local introuvable : {raw_path}")
         for local in sorted(path for path in source_dir.rglob("*") if path.is_file()):
             relative = local.relative_to(config_root).as_posix()
-            key = relative.casefold()
+            profile = str(rule.get("profile", "")).strip()
+            key = (relative.casefold(), profile.casefold())
             if key in seen:
                 continue
             seen.add(key)
@@ -211,22 +256,27 @@ def process_config_manifest(
                 "size_bytes": local.stat().st_size,
                 "mode": str(rule.get("mode", "preserve")),
                 "enabled": rule.get("enabled") is True,
+                "profile": profile,
             })
 
     total = 0
     for index, entry in enumerate(files, start=1):
         relative = entry["path"]
+        source = entry.get("source", relative)
+        if not isinstance(source, str) or not source.strip():
+            raise RuntimeError(f"source invalide dans configs.json files[{index}]")
         url = entry.get("download_url")
         if not isinstance(url, str):
             raise RuntimeError(f"download_url invalide dans configs.json files[{index}]")
         size = entry.get("size_bytes")
         if not url.strip():
-            local = safe_local_file(pack_dir, "config", relative)
+            local = safe_local_file(pack_dir, "config", source)
             validate_hash(local, entry, f"{pack_id}/configs.json[{index}]")
+            entry["sha256"] = file_digest(local, "sha256")
             size = local.stat().st_size
             entry["size_bytes"] = size
             entry["download_url"] = public_file_url(
-                base_url, pack_id, "config", relative, revision
+                base_url, pack_id, "config", source, revision
             )
         if not isinstance(size, int) or isinstance(size, bool) or size < 0:
             raise RuntimeError(f"size_bytes manquant dans configs.json files[{index}]")
@@ -281,10 +331,24 @@ def build(base_url: str) -> None:
             revision = pack_revision(pack_dir)
             total_size = 0
             manifest_urls = {}
+            profile_source = pack_dir / "manifests" / "profiles.json"
+            profile_data = read_json(profile_source) if profile_source.is_file() else {"profiles": []}
+            profile_ids = [str(item.get("id", "")).strip() for item in profile_data.get("profiles", []) if isinstance(item, dict)]
             for name in MANIFEST_NAMES:
                 source_path = pack_dir / "manifests" / name
                 if not source_path.is_file():
                     if name == "configs.json":
+                        automatic = automatic_config_manifest(pack_dir, profile_ids)
+                        if automatic is None:
+                            continue
+                        data, manifest_size = process_config_manifest(
+                            automatic, pack_dir, pack_id, base_url, revision, source_path
+                        )
+                        total_size += manifest_size
+                        write_json(destination / "manifests" / name, data)
+                        manifest_urls["configs"] = f"{base_url}/packs/{quote(pack_id)}/manifests/configs.json"
+                        continue
+                    if name == "profiles.json":
                         continue
                     raise RuntimeError(f"Manifest introuvable : {source_path}")
                 data, manifest_size = process_manifest(
@@ -322,6 +386,7 @@ def build(base_url: str) -> None:
             "/catalog.json\n  Cache-Control: no-cache, must-revalidate\n\n"
             "/packs/*/manifests/*\n  Cache-Control: no-cache, must-revalidate\n\n"
             "/packs/*/assets/*\n  Cache-Control: public, max-age=3600\n\n"
+            "/packs/*/profiles/*\n  Cache-Control: public, max-age=31536000, immutable\n\n"
             "/packs/*/mods/*\n  Cache-Control: public, max-age=31536000, immutable\n\n"
             "/packs/*/resourcepacks/*\n  Cache-Control: public, max-age=31536000, immutable\n\n"
             "/packs/*/shaderpacks/*\n  Cache-Control: public, max-age=31536000, immutable\n\n"
