@@ -16,7 +16,11 @@
       "loader_version": "latest",
       "installation_dir": "cozy_adventure",
       "java_version": 21,
-      "recommended_ram_ratio": 0.65
+      "recommended_ram_ratio": 0.65,
+      "resourcepack_activation_ids": [
+        "mod/item_interactions_mod:resourcepacks/example_gui_particles",
+        "continuity:default"
+      ]
     },
     {
       "id": "pokekayou",
