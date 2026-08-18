@@ -16,7 +16,7 @@
       "loader_version": "latest",
       "installation_dir": "cozy_adventure",
       "java_version": 21,
-      "recommended_ram_gb": 8
+      "recommended_ram_gb": 10
     },
     {
       "id": "pokekayou",
