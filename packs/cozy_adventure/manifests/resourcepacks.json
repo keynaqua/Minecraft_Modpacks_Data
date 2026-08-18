@@ -272,6 +272,22 @@
       "size_bytes": 773565,
       "active": true,
       "order": 15
+    },
+	{
+      "file_name": "Overgrown Flowery GUI.zip",
+      "download_url": "https://cdn.modrinth.com/data/IUJGdLaw/versions/qr5hrNcB/Overgrown%20Flowery%20GUI.zip",
+      "sha256": "bb3cca15ef0125fd6d01918967f8113c72b4372271f4d2ff71633ae7842de4d5",
+      "size_bytes": 888615,
+      "active": false,
+      "order": 0
+    },
+	{
+      "file_name": "Simple Hotbar 1.20.2-1.21.x.zip",
+      "download_url": "https://cdn.modrinth.com/data/d0w6GHbr/versions/rnRUmzOM/Simple%20Hotbar%201.20.2-1.21.x.zip",
+      "sha256": "ceaa8a8b69ba644d9bfb22e24eadd0e4aa34208d0ee8c3ff955c8213b2d46be4",
+      "size_bytes": 232051,
+      "active": false,
+      "order": 0
     }
   ]
 }
