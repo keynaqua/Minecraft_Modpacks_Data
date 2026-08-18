@@ -288,6 +288,14 @@
       "size_bytes": 232051,
       "active": false,
       "order": 0
+    },
+	{
+      "file_name": "Extra Flowery GUI.zip",
+      "download_url": "https://cdn.modrinth.com/data/UYeecoyN/versions/bjbD34o6/Extra%20Flowery%20GUI.zip",
+      "sha256": "185e58901c630c9a3591916c92bedcc23a95c1236fd76331a5a20f5ec4f31fb9",
+      "size_bytes": 74710,
+      "active": false,
+      "order": 0
     }
   ]
 }
