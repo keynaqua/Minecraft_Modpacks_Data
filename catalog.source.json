@@ -1,8 +1,8 @@
 {
   "installer": {
-    "version": "3.0.0",
+    "version": "4.0.0",
     "asset_name": "KayouInstaller.exe",
-    "download_url": "https://github.com/keynaqua/KayouInstaller/releases/download/v3.0.0/KayouInstaller.exe"
+    "download_url": "https://github.com/keynaqua/KayouInstaller/releases/download/v4.0.0/KayouInstaller.exe"
   },
   "modpacks": [
     {
@@ -16,7 +16,7 @@
       "loader_version": "latest",
       "installation_dir": "cozy_adventure",
       "java_version": 21,
-      "recommended_ram_gb": 10
+      "recommended_ram_ratio": 0.65
     },
     {
       "id": "pokekayou",
