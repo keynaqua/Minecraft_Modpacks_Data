@@ -1136,6 +1136,14 @@
       "file_name": "YungsExtras-1.21.1-NeoForge-5.1.1.jar",
       "sha1": "62833733aaf407f36bdacf648ed4b2ef9940662b",
       "size_bytes": 198183
+    },
+    {
+      "id": "wet_sand",
+      "version": "1.0.0",
+      "download_url": "",
+      "file_name": "wet_sand-1.0.0.jar",
+      "sha1": "46bc689f3003aacdb789d87f9638ebb782ff6cd1",
+      "size_bytes": 6706
     }
   ],
   "blacklist": [],
