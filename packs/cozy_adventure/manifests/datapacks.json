@@ -42,14 +42,6 @@
       "order": 5
     },
     {
-      "file_name": "Realistic Item Drops 3.4.zip",
-      "download_url": "https://cdn.modrinth.com/data/CZP8YYTl/versions/IwiFsoSa/Realistic%20Item%20Drops%203.4.zip",
-      "sha256": "ce757f4fb0f5768b17fe389a6860b57766b51d947da52e37747213993a27864a",
-      "size_bytes": 15150,
-      "active": true,
-      "order": 6
-    },
-    {
       "file_name": "tidal_1.3.4.zip",
       "download_url": "https://cdn.modrinth.com/data/EEIwvQVo/versions/zZ83E9TB/tidal_1.3.4.zip",
       "sha256": "7c672a08eafabc24ef087f87afc4b96e5d29352ae58d9629df0d6ded5fb495cb",

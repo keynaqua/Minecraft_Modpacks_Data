@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "default": "flowery",
+  "profiles": [
+    {
+      "id": "flowery",
+      "name": "Flowery",
+      "logo": "flowery.png",
+      "resourcepacks": [
+        "Overgrown Flowery GUI.zip",
+        "Extra Flowery GUI.zip"
+      ],
+      "shader": "ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3"
+    },
+    {
+      "id": "simple_hotbar",
+      "name": "Simple Hotbar",
+      "logo": "simple_hotbar.png",
+      "resourcepacks": [
+        "Simple Hotbar 1.20.2-1.21.x.zip"
+      ],
+      "shader": "ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3"
+    }
+  ]
+}

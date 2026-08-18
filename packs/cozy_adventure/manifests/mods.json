@@ -1152,6 +1152,14 @@
       "file_name": "ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar",
       "sha1": "42dddb70cc645a864596439ea95bd56e7a5561ed",
       "size_bytes": 83035
+    },
+	{
+      "id": "itemphysic",
+      "version": "1.8.12",
+      "download_url": "https://cdn.modrinth.com/data/aT8BzaOj/versions/KkuIXFb8/ItemPhysic_NEOFORGE_v1.8.13_mc1.21.1.jar",
+      "file_name": "ItemPhysic_NEOFORGE_v1.8.13_mc1.21.1.jar",
+      "sha1": "272cdbf4cb63d8c4f6fb25be5e94343717e48a29",
+      "size_bytes": 54529
     }
   ],
   "blacklist": [],
